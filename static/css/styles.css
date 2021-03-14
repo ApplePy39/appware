@@ -213,13 +213,13 @@ h4 {
 }
 
 .content #home-page {
-    width: 40%;
-    display: column;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
     background-color: #f3fcff;
-    margin: 3em;
-    margin-left: 10em;
+    margin: auto;
+    width: 50%;
     padding: 2em;
-    position: absolute;
     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.35);
 }
 
