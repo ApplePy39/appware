@@ -1,0 +1,24 @@
+{
+  "name": "appware",
+  "version": "1.0.0",
+  "description": "=======\r #### Join our Discord Server for more information! Invite Link: https://discord.gg/5wMhukj27X",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppwareTeam/appware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://AppwareTeam.github.io/appware",
+  "bugs": {
+    "url": "https://github.com/AppwareTeam/appware/issues"
+  },
+  "homepage": "https://github.com/AppwareTeam/appware#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

@@ -9,7 +9,7 @@
 }
 
 html, body {
-    background: #141414;
+    background: #fff;
 }
 
 .navbar {
@@ -160,4 +160,185 @@ html, body {
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+
+/* Hero Section */
+
+#main {
+    background-color: #141414;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main-content h1 {
+    font-size: 5rem;
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 30%, #5CE1E6 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 30%, #5CE1E6 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main-content p {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    background-color: #fff;
+    background-image: linear-gradient(to right, rgb(221, 221, 221) 30%, #fff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main-content h5 {
+    font-size: 1.25rem;
+    margin-top: .5rem;
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 30%, #5CE1E6 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main-img-container {
+    text-align: center;
+}
+
+#main-img {
+    height: 80%;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main-content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main-content h1 {
+        font-size: 3.5rem;
+        margin-top: 2rem;
+    }
+
+    .main-content h2 {
+        font-size: 2rem;
+    }
+
+    .main-content p {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 428px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main-content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main-content h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .main-content h2 {
+        font-size: 1.75rem;
+        margin-top: 1rem;
+    }
+
+    .main-content p {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+
+    .main-content h5 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Services */
+
+#services {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#services h2 {
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 0%, #5CE1E6 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(top bottom, rgba(0,0,0,0) 0%,
+     rgba(17, 17, 17, 0.6) 100%), 
+     url('/root/images/discordbot.png');
+     background-size: cover;
+     position: relative;
 }
