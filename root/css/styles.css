@@ -12,6 +12,12 @@ html, body {
     background: #141414;
 }
 
+a {
+    text-decoration:none;
+    color:darkblue;
+}
+
+
 .navbar {
     background: #131313;
     height: 80px;
